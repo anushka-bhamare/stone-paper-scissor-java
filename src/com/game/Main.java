@@ -22,7 +22,7 @@ public class Main {
         else if (userInput == 1) {
             System.out.println("You choose: Paper");
         }
-        else if (userInput == 2) {
+        else {
             System.out.println("You choose: Scissor");
         }
 
@@ -36,7 +36,7 @@ public class Main {
         else if (comInput == 1) {
             System.out.println("Computer choose: Paper");
         }
-        else if (comInput == 2) {
+        else {
             System.out.println("Computer choose: Scissor");
         }
 
@@ -45,7 +45,7 @@ public class Main {
             System.out.println("Draw!");
         }
 
-        else if (userInput == 0 && comInput == 1 || userInput == 0 && comInput == 2
+        else if (userInput == 1 && comInput == 0 || userInput == 0 && comInput == 2
                 || userInput == 2 && comInput == 1){
             System.out.println("You Win!");
         }
